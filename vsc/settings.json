@@ -1,0 +1,55 @@
+{
+	"breadcrumbs.enabled": false,
+	"editor.detectIndentation": false,
+	"editor.fontFamily": "DM Mono, Source Code Pro, 'Courier New', monospace",
+	"editor.fontSize": 12,
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": false,
+	"editor.formatOnType": false,
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": false,
+	"editor.occurrencesHighlight": "off",
+	"editor.renderWhitespace": "boundary",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.wordWrap": "on",
+	"explorer.confirmDelete": false,
+	"extensions.ignoreRecommendations": true,
+	"files.exclude": {
+		"**/main.aux": true,
+		"**/main.bbl": true,
+		"**/main.bcf": true,
+		"**/main.blg": true,
+		"**/main.fdb_latexmk": true,
+		"**/main.fls": true,
+		"**/main.log": true,
+		"**/main.out": true,
+		"**/main.run.xml": true,
+		"**/main.synctex.gz": true,
+		"**/main.toc": true
+	},
+	"files.trimTrailingWhitespace": true,
+	"html.autoClosingTags": false,
+	"latex-workshop.latex.autoBuild.run": "onSave",
+	"latex-workshop.latex.tools": [
+		{
+			"args": [
+				"-lualatex",
+				"-synctex=1", "-interaction=nonstopmode",
+				"-file-line-error", "%DOC%"
+			],
+			"command": "latexmk",
+			"name": "latexmk"
+		}
+	],
+	"latex-workshop.view.pdf.hand": true,
+	"latex-workshop.view.pdf.toolbar.hide.timeout": 0,
+	"python.createEnvironment.trigger": "off",
+	"terminal.external.osxExec": "Alacritty.app",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.fontSize": 12,
+	"update.mode": "manual",
+	"update.showReleaseNotes": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Vitesse Dark"
+}
