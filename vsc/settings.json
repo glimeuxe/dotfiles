@@ -10,6 +10,7 @@
 	"editor.insertSpaces": false,
 	"editor.occurrencesHighlight": "off",
 	"editor.renderWhitespace": "boundary",
+	"editor.stickyScroll.enabled": false,
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.wordWrap": "on",
 	"explorer.confirmDelete": false,
@@ -51,5 +52,5 @@
 	"update.showReleaseNotes": false,
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Vitesse Dark"
+	"workbench.colorTheme": "Vitesse Dark",
 }
